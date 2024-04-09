@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nRYoY7BagWnqmcz16xrB4gGYgZ83+dcOgTgSF4JHLh+ctH3U75BUtDwDRghsJFxGqTHnX2s5RLrMERROofbhGw==",
+  "dgSpecHash": "ItCNvCKNRB/DRlBf3uTCmykIOf9m30jfJfIOcF7I1uBJEDmgiU/RUXoB37rA1LbkByR3jG0NDgB7TmPMSIH/yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\muhshah\\source\\repos\\DEFRA\\nirms-exports-signup-service-shared\\tests\\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muhshah\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\muhshah\\.nuget\\packages\\fluentassertions\\6.10.0\\fluentassertions.6.10.0.nupkg.sha512",
     "C:\\Users\\muhshah\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\muhshah\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\muhshah\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -16,7 +17,9 @@
     "C:\\Users\\muhshah\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\muhshah\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\muhshah\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
-    "C:\\Users\\muhshah\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\muhshah\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\muhshah\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\muhshah\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
