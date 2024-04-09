@@ -97,3 +97,10 @@ C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\De
 C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\obj\Debug\net6.0\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests.pdb
 C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\obj\Debug\net6.0\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests.genruntimeconfig.cache
 C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\obj\Debug\net6.0\ref\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests.dll
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\FluentAssertions.dll
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\Defra.Trade.ReMoS.AssuranceService.Shared.dll
+C:\Users\muhshah\source\repos\DEFRA\nirms-exports-signup-service-shared\tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\bin\Debug\net6.0\Defra.Trade.ReMoS.AssuranceService.Shared.pdb

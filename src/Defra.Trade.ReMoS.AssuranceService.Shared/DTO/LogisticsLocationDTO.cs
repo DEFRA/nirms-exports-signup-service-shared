@@ -1,9 +1,7 @@
 ﻿using Defra.Trade.ReMoS.AssuranceService.Shared.Enums;
-using System.Diagnostics.CodeAnalysis;
 
 namespace Defra.Trade.ReMoS.AssuranceService.Shared.DTO;
 
-[ExcludeFromCodeCoverage]
 public class LogisticsLocationDto
 {
     public Guid Id { get; set; }

@@ -1,8 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿namespace Defra.Trade.ReMoS.AssuranceService.Shared.DTO;
 
-namespace Defra.Trade.ReMoS.AssuranceService.Shared.DTO;
-
-[ExcludeFromCodeCoverage]
 public class AuthorisedSignatoryDto
 {
     public Guid Id { get; set; }        
