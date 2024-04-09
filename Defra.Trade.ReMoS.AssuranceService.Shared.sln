@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B490D81-0B52-4367-BFEC-FBD2D7DB752D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defra.Trade.ReMoS.AssuranceService.Shared", "src\Defra.Trade.ReMoS.AssuranceService.Shared\Defra.Trade.ReMoS.AssuranceService.Shared.csproj", "{255A85C8-BF5F-4FFC-B113-F2D11E435E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49117734-377F-4680-B87C-71D358D2E83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests", "tests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests\Defra.Trade.ReMoS.AssuranceService.Shared.UnitTests.csproj", "{CA037372-A508-4C06-8BAB-754F3B043FC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{255A85C8-BF5F-4FFC-B113-F2D11E435E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255A85C8-BF5F-4FFC-B113-F2D11E435E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255A85C8-BF5F-4FFC-B113-F2D11E435E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255A85C8-BF5F-4FFC-B113-F2D11E435E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA037372-A508-4C06-8BAB-754F3B043FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA037372-A508-4C06-8BAB-754F3B043FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA037372-A508-4C06-8BAB-754F3B043FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA037372-A508-4C06-8BAB-754F3B043FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{255A85C8-BF5F-4FFC-B113-F2D11E435E41} = {1B490D81-0B52-4367-BFEC-FBD2D7DB752D}
+		{CA037372-A508-4C06-8BAB-754F3B043FC6} = {49117734-377F-4680-B87C-71D358D2E83B}
+	EndGlobalSection
+EndGlobal
