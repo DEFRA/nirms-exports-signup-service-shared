@@ -5,7 +5,8 @@ namespace Defra.Trade.ReMoS.AssuranceService.Shared.DTO;
 [ExcludeFromCodeCoverage]
 public class AuthorisedSignatoryDto
 {
-    public Guid Id { get; set; }        
+    public Guid Id { get; set; }
+    public Guid TradePartyId { get; set; }
     public string? Name { get; set; }
     public string? EmailAddress { get; set; }
     public string? Position { get; set; }

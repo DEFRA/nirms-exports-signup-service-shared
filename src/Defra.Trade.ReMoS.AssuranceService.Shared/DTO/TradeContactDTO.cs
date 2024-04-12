@@ -6,6 +6,7 @@ namespace Defra.Trade.ReMoS.AssuranceService.Shared.DTO;
 public class TradeContactDto
 {
     public Guid Id { get; set; }
+    public Guid TradePartyId { get; set; }
     public string? PersonName { get; set; }
     public string? TelephoneNumber { get; set; }
     public string? Email { get; set; }
