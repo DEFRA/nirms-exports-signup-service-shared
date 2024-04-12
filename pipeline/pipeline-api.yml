@@ -32,7 +32,7 @@ resources:
     - repository: PipelineCommon
       name: DEFRA-TRD/Defra.TRD.Pipeline.Common
       type: git
-      ref: pp/nuget-pck
+      ref: master
 
 extends:
   template: /templates/basic-common-nugget-publish.yaml@PipelineCommon
