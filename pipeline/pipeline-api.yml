@@ -1,0 +1,46 @@
+name: 'V1-B$(Date:yyyyMMdd)-$(BuildID)'
+trigger: none
+
+parameters:
+- name: publishPackage
+  displayName: 'Should publish nuget package?'
+  type: boolean
+  default: false
+- name: isPreRelease
+  displayName: 'Is this a pre-release version?'
+  type: boolean
+  default: false
+
+variables:
+  major: '2'
+  minor: '2'
+  ${{ if eq(parameters.publishPackage, true) }}:
+    revision: $[counter(format('{0}.{1}', variables['major'], variables['minor']), 0)]
+  ${{ if eq(parameters.publishPackage, false) }}:
+    revision: 0
+  ${{ if eq(parameters.isPreRelease, true) }}:
+    versionType: '-pre'
+  ${{ if eq(parameters.isPreRelease, false) }}:
+    versionType: ''
+  ${{ if in(variables['Build.SourceBranch'], 'refs/heads/dev', 'refs/heads/master') }}:
+    packageVersion: '$(major).$(minor).$(revision)$(versionType)'
+  ${{ if not(in(variables['Build.SourceBranch'], 'refs/heads/dev', 'refs/heads/master')) }}:
+    packageVersion: '$(major).$(minor).$(revision)$(versionType)-a'
+
+resources:
+  repositories:
+    - repository: PipelineCommon
+      name: DEFRA-TRD/Defra.TRD.Pipeline.Common
+      type: git
+      ref: master
+
+extends:
+  template: /templates/basic-common-nugget-publish.yaml@PipelineCommon
+  parameters:
+    unitTests: |
+        **/*Tests.csproj
+    publishPackage: ${{ parameters.publishPackage }}
+    isPreRelease: ${{ parameters.isPreRelease }}
+    packageVersion: '${{ variables.packageVersion }}'
+    packagesToPack: '**/*Shared.csproj'
+    useNugetToPack: false
