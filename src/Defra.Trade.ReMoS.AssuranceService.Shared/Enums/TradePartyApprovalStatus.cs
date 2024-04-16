@@ -5,21 +5,21 @@ namespace Defra.Trade.ReMoS.AssuranceService.Shared.Enums;
 
 public enum TradePartyApprovalStatus
 {
-    [Description("NOT SIGNED-UP")]
+    [Description("Not signed-up")]
     NotSignedUp,
 
-    [Description("APPROVED FOR NIRMS")]
+    [Description("Approved for NIRMS")]
     Approved,
 
-    [Description("SIGN-UP REJECTED")]
+    [Description("Sign-up rejected")]
     Rejected,
 
-    [Description("SIGN-UP STARTED")]
+    [Description("Sign-up started")]
     SignupStarted,
 
-    [Description("PENDING APPROVAL")]
+    [Description("Pending approval")]
     PendingApproval,
 
-    [Description("SUSPENDED")]
+    [Description("Suspended")]
     Suspended
 }
