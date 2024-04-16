@@ -13,7 +13,7 @@ parameters:
 
 variables:
   major: '2'
-  minor: '3'
+  minor: '4'
   ${{ if eq(parameters.publishPackage, true) }}:
     revision: $[counter(format('{0}.{1}', variables['major'], variables['minor']), 0)]
   ${{ if eq(parameters.publishPackage, false) }}:
